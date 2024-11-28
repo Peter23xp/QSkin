@@ -1,0 +1,19 @@
+Imagine you’ve been approached (Refer to the group list number) as a professional UI designer and developer by niche e-commerce business owners to create a unique, branded user interface for their products. Your task is to develop a complete, visually appealing UI that reflects the brand’s identity, targets the appropriate audience, and showcases a well-structured layout using HTML, CSS, and basic JavaScript as defined in each niche. Your tasks will involve but not be limited to the below as you will need to be creative:
+
+Branding and Design:
+Focus on creating an engaging and consistent design that represents the brand identity for the specific product niche.
+
+User-Centric Interface:
+Tailor the interface to attract and engage the intended audience.
+
+Development and Deployment:
+Push your project to GitHub and host the final UI on GitHub Pages.
+
+II. Available Niches:
+Organic Skincare
+
+Categories: Face Care, Body Care, Hair Care, Baby Care
+Color Scheme: Green, White, and Beige
+Font: Playfair Display and Open Sans
+Audience: Health-conscious adults
+Logo: Combination of first and last name initials
