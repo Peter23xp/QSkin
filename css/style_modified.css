@@ -1437,3 +1437,28 @@ p, a, input, button, .nav-link {
   color: var(--green-primary);
   font-family: "Open Sans", sans-serif;
 }
+
+.star_container {
+    display: flex;  /* Alignement horizontal des étoiles */
+    justify-content: center;  /* Centrage des étoiles */
+    gap: 5px;  /* Espace entre les étoiles */
+}
+
+.star_container .fa-star {
+    color: #ddd;  /* Couleur grise par défaut */
+    font-size: 24px;  /* Taille des étoiles */
+    cursor: pointer;  /* Indication qu'elles sont cliquables */
+    transition: color 0.3s ease;  /* Transition douce pour le changement de couleur */
+}
+
+/* États des étoiles */
+.star_container .fa-star:hover,
+.star_container .fa-star:hover ~ .fa-star {
+    color: #ffc107;  /* Jaune doré au survol */
+}
+
+/* États actifs/sélectionnés */
+.star_container .fa-star.active,
+.star_container .fa-star.active ~ .fa-star {
+    color: #ffc107;  /* Étoiles actives en jaune */
+}
