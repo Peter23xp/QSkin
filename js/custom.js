@@ -30,3 +30,14 @@ $(document).ready(function() {
     wrap: true        // Permet au carrousel de boucler
   });
 });
+document.querySelectorAll('.star_container .fa-star').forEach((star, index) => {
+  star.addEventListener('click', () => {
+      // Réinitialiser toutes les étoiles
+      document.querySelectorAll('.star_container .fa-star').forEach(s => s.classList.remove('active'));
+      
+      // Activer les étoiles jusqu'à l'étoile cliquée
+      for(let i = 0; i <= index; i++) {
+          document.querySelectorAll('.star_container .fa-star')[i].classList.add('active');
+      }
+  });
+});
